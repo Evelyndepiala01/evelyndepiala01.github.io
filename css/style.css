@@ -1,0 +1,59 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .8rem;
+}
+
+.direito {
+    background-color: #696969;
+    margin-left: 12%;
+    padding: 12px;
+    width: 40%;
+    margin-left: 0;
+    padding-top: 5%;
+}
+
+.esquerdo {
+    background-color: white;
+    margin-left: 12%;
+    padding: 12px;
+    width: 60%;
+    display: inline-block;
+    margin-left: 0;
+}
+
+.div {
+    display: flex;
+    width: 50%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+#demo {
+    -webkit-box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.57);
+    box-shadow: 0px 0px 15px 7px rgba(0, 0, 0, 0.57);
+}
+
+.circle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    position: relative;
+    margin-left: 25%;
+}
+
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.name-principal {
+    padding-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.letras {
+    text-transform: uppercase;
+}
